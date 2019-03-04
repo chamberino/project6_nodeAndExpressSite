@@ -1,0 +1,22 @@
+{
+    "projects": [
+      {
+        "id": "0",
+        "project_name": "Employee Database",
+        "description": "A searchable database of employees",
+        "technologies": "fetch API, OOJS, JS",
+        "live_link": "https://github.com",
+        "github_link": "https://chamberino.github.io",
+        "image_urls": ["/img/pic.jpg", "/img/pic.jpg"]
+      },
+      {
+        "id": "1",
+        "project_name": "Employee Database",
+        "description": "A searchable database of employees",
+        "technologies": "fetch API, OOJS, JS",
+        "live_link": "https://github.com",
+        "github_link": "https://chamberino.github.io",
+        "image_urls": ["/img/pic.jpg", "/img/pic.jpg"]
+      }
+    ]
+}
