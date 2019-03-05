@@ -2,21 +2,63 @@
     "projects": [
       {
         "id": "0",
-        "project_name": "Employee Database",
-        "description": "A searchable database of employees",
-        "technologies": "fetch API, OOJS, JS",
-        "live_link": "https://github.com",
-        "github_link": "https://chamberino.github.io",
-        "image_urls": ["/img/pic.jpg", "/img/pic.jpg"]
+        "project_name": "User Dashboard",
+        "description": "An interactive and intuitive user dashboard for a web application.",
+        "technologies": ["JavaScript", "Responsive Design", "Chart.js", "UI Interface Design"],
+        "live_link": "https://chamberino.github.io/project_7_web_app_dashboard",
+        "github_link": "https://github.com/chamberino/project_7_web_app_dashboard",
+        "image_urls": ["/static/img/dashboard.png", "/static/img/dashboard_landscape1.png", "/static/img/dashboard_landscape2.png", "/static/img/dashboard_landscape3.png"],
+        "landscape_images": ["/static/img/dashboard_landscape1.png", "/static/img/dashboard_landscape2.png", "/static/img/dashboard_landscape3.png"]
       },
       {
         "id": "1",
-        "project_name": "Employee Database",
-        "description": "A searchable database of employees",
-        "technologies": "fetch API, OOJS, JS",
-        "live_link": "https://github.com",
-        "github_link": "https://chamberino.github.io",
-        "image_urls": ["/img/pic.jpg", "/img/pic.jpg"]
+        "project_name": "Interactive Form",
+        "description": "An engaging, interactive, and easy to use form with custom validation.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://chamberino.github.io/project_3_interactive_form/",
+        "github_link": "https://github.com/chamberino/project_3_interactive_form",
+        "image_urls": ["/static/img/interactiveForm.png"],
+        "landscape_images": ["/static/img/form_landscape1.png", "/static/img/form_landscape2.png", "/static/img/form_landscape3.png"]
+      },
+      {
+        "id": "2",
+        "project_name": "Paginated List",
+        "description": "A searchable list of employees dynamically divided into 'page' links.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://chamberino.github.io/project_2_list_pagination_and_filtering",
+        "github_link": "https://github.com/chamberino/project_2_list_pagination_and_filtering",
+        "image_urls": ["/static/img/pagination.png"],
+        "landscape_images": ["/static/img/pagination_landscape1.png", "/static/img/pagination_landscape2.png"]
+      },
+      {
+        "id": "3",
+        "project_name": "Web Style Guide",
+        "description": "For this project, I developed a style guide, implementing Sass to create to make workflow easier, faster, and more efficient.",
+        "technologies": ["SASS", "Responsive Design", "HTML"],
+        "live_link": "https://chamberino.github.io/Project_4_Web_Style_Guide",
+        "github_link": "https://github.com/chamberino/Project_4_Web_Style_Guide",
+        "image_urls": ["/static/img/styleguide.png"],
+        "landscape_images": ["/static/img/styleguide.png"]
+      },
+      {
+        "id": "4",
+        "project_name": "Employee Directory",
+        "description": "A searchable employee directory that uses the Fetch API to receive user data from a server.",
+        "technologies": ["fetch API", "OOJS", "HTML"],
+        "live_link": "https://chamberino.github.io/project_8_employee_directory",
+        "github_link": "https://github.com/chamberino/project_8_employee_directory",
+        "image_urls": ["/static/img/employee_directory.png"],
+        "landscape_images": ["/static/img/directory_landscape1.png", "/static/img/directory_landscape2.png", "/static/img/directory_landscape3.png"]
+      },
+      {
+        "id": "5",
+        "project_name": "Game Show App",
+        "description": "A 'Wheel of Fortune' inspired game! Players try to guess a phrase by entering different letters.",
+        "technologies": ["OOJS", "CSS", "HTML"],
+        "live_link": "https://chamberino.github.io/project_6_game_show_app",
+        "github_link": "https://github.com/chamberino/project_4_oop_game",
+        "image_urls": ["/static/img/game.png"],
+        "landscape_images": ["/static/img/game_landscape2.png", "/static/img/game_landscape1.png", "/static/img/game_landscape3.png"]
       }
     ]
 }
