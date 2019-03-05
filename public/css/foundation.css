@@ -444,7 +444,8 @@ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  /* font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; */
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -4987,7 +4988,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 .thumbnail {
   display: inline-block;
   max-width: 100%;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   border: solid 4px #fefefe;
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
@@ -5002,6 +5003,7 @@ a.thumbnail {
 
 .title-bar {
   padding: 0.5rem;
+  /* background: #576366; */
   background: #0a0a0a;
   color: #fefefe;
   display: -ms-flexbox;

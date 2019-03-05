@@ -1,0 +1,7 @@
+extends layout.pug
+
+block content 
+  article.error-container
+    h1= `${error.message} - Status: ${error.status}`
+    a.goHomeLink(href='/') Go Home
+      p.errorMessage= error.stack

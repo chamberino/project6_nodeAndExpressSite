@@ -1,6 +1,6 @@
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'PT Sans', serif;
 }
 
   h5{
@@ -113,7 +113,7 @@ a:hover{
 }
 
   .portfolio-index .thumbnail{
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
   }
 
   .portfolio-index a{
@@ -147,4 +147,152 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+.portfolio-title {
+    font-size: 2.5em;
+}
+
+.title-bar-title {
+  /* margin-left: 1em; */
+}
+
+.goHomeLink {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.errorMessage {
+  margin-top: 2em;
+}
+
+.error-container {
+  overflow: hidden;
+  margin: 0 2em;
+}
+
+/* .thumbnail {
+  position: relative;
+  line-height: 1;
+  overflow: hidden;
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,.2));
+  box-shadow: none;
+  border-radius: 2px;
+} */
+
+.title-bar {
+  /* background-color: #339fc8; */
+}
+
+.photo-container img {
+ 	max-width: 100%;
+}
+
+
+
+.slide .photo-overlay,
+.slide img {
+	transition: transform .4s ease-out;
+}
+
+.slide .photo-overlay {
+	transform: translateX(-100%);
+}
+
+.slide:hover .photo-overlay {
+	transform: translateX(0);
+}
+
+.slide:hover img {
+	transform: translateX(100%);
+}
+
+.photo {
+	position: relative;
+	line-height: 1;
+	overflow: hidden;
+  filter: drop-shadow(0px 0px 1px rgba(0,0,0,.2));
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,.2));
+  border-radius: 2px;
+}
+
+/* ---- Photo Overlay ---- */
+
+.photo-overlay {
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+  line-height: 1.25;
+  padding: 18px 18px;
+  height: 100%;
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+	background: rgba(0,0,0, .65);
+}
+
+.photo-overlay h3 {
+  margin-top: 0;
+  margin-bottom: .25em;
+}
+
+.photo-overlay h3,
+.photo-overlay p {
+	justify-content: center;
+}
+
+.skills {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  align-items: center;
+}
+
+.skill {
+  padding: 0 .25em;
+}
+
+.skills p {
+  border-radius: 25px;
+  padding: .5em;
+  background-color: #fff;
+  color: #595959;
+  font-size: 10px;
+}
+
+.about-container {
+  margin: 2em auto;
+  padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-item img {
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+  width:150px;
+  height:150px;
+  margin: 0 auto;
+}
+
+.portfolio-button:hover {
+  background-color: #339fc8;
+}
+
+
+@media (min-width: 0) and (max-width: 540px) {
+	.portfolio-intro, .portfolio-index {
+		padding: 40px 30px 30px;
+	}
+}
+
+@media (min-width: 540px) {
+  .title-bar-title {
+    margin-left: 1.15em;
+  }
 }

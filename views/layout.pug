@@ -5,7 +5,8 @@ html(class="no-js" lang="en" dir="ltr")
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
-    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    //- link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet")
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
   body
@@ -17,22 +18,19 @@ html(class="no-js" lang="en" dir="ltr")
             img.thumbnail(src='/static/img/Chambers_Union_Resized.jpg')
           .cell.auto
 
-            h5 Michael Chambers
+            h5 MICHAEL CHAMBERS
 
-            //- Add text here to describe who you are, what you do, and why you are so aweome.
             p.text-light Front-End | Full Stack JackScript Developer
             p.text-light I make websites and music and food if you're hungry
 
-            //- Add about page route to the href below. 
-            a(href='http://localhost:3000/about') Learn More →
+            a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here.  This is for the mobile screen sized version.
-          span.title-bar-title Michael Chambers
+          span.title-bar-title MICHAEL CHAMBERS
       block content
         
 

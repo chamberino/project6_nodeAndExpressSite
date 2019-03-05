@@ -4,9 +4,8 @@ block content
   article.grid-container.portfolio-intro
     div
 
-      h1 Portfolio
+      h1.portfolio-title Portfolio
 
-      //- Add a description for your portfolio, what this project is, it's purpose, what it's suppossed to accomplish, etc. 
       p.lead.text-light A collection of projects I've built for the Team Treehouse Front End Web Development and Full Stack JavaScript TechDegrees.
   article.grid-container.portfolio-index
     
@@ -14,6 +13,12 @@ block content
       
       each project in projects    
         .cell
-          a(href= `/projects/${project.id}`)
-            img.thumbnail(src=`${project.image_urls[0]}`)
-            h5= `${project.project_name}`
+          .photo.slide
+            a(href= `/projects/${project.id}` target="_blank")
+              img.thumbnail(src=`${project.image_urls[0]}`)
+              .photo-overlay
+                //- .skills
+                //-   .skill
+                //-     p HTML
+                button.button.portfolio-button View Project
+          h5= `${project.project_name}`      

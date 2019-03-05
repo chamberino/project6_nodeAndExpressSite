@@ -6,8 +6,7 @@ const router = express.Router();
 const data = require('../data.json');
 
 router.get('/', (req, res) => {
-  // const name = project
-  // points to index.pug template.
+  
   const projects = data["projects"];
   res.render('index', { projects });
 });

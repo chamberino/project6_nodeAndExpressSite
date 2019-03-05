@@ -9,11 +9,6 @@ const port = 3000;
 // App holds a reference to Express Object
 const app = express();
 
-
-app.listen(port, () => {
-  console.log('running')
-});
-
 // Import data
 const data = require('./data.json').projects;
 
@@ -38,3 +33,26 @@ app.use(mainRoutes);
 app.use('/projects', projectRoutes);
 //add a new about route
 app.use('/about', aboutRoutes);
+
+
+app.use((req, res, next) => {
+  const err = new Error('Not Found');
+  //Add a property of status to err object and set it to 500. status isn't a special name. The name is arbitrary.
+  err.status = 404;
+  console.error(err)
+  next(err);
+})
+
+app.use((err, req, res, next) => {
+  // const err = new Error('Not Found');
+  //local is sent on response object
+  res.locals.error = err;
+  //call the err.status property
+  res.status(err.status);
+  //the error object has properties that hold the data about the error so we can pass that in as the second argument to the render function
+  console.error(err);
+  res.render('error');
+})
+
+app.listen(port, () => {
+});
